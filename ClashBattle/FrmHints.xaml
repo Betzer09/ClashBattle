@@ -1,0 +1,14 @@
+﻿<Window x:Class="ClashBattle.FrmHints"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClashBattle"
+        mc:Ignorable="d"
+        Title="FrmHints" Height="300" Width="500" Background="Black">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="207" Width="453" TextAlignment="Center" Foreground="#FF959595" FontSize="16"><Run Text="If you want to win the game, I recommend always having a weapon! Make sure you use your runs wisely! "/><LineBreak/><Run Text="Save the potions for when you need them most. Remember, you do not have to pick them up!"/><LineBreak/><Run Text="Keep in mind that your weapons will only last so long, so be sure to check out how much damage they use before equipping it. "/><LineBreak/><Run Text="Be sure to use your level-ups wisely!!! (Life is always nice!)"/><LineBreak/><Run Text="Good Luck! May The Odds Be Ever In Your Favor!"/></TextBlock>
+        <Button x:Name="btnClose" Content="I Understand" HorizontalAlignment="Left" Margin="199,239,0,0" VerticalAlignment="Top" Width="105" RenderTransformOrigin="-0.21,0.189" FontWeight="Bold" Click="btnClose_Click"/>
+
+    </Grid>
+</Window>

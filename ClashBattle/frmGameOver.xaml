@@ -1,0 +1,16 @@
+﻿<Window x:Class="ClashBattle.frmGameOver"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClashBattle"
+        mc:Ignorable="d"
+        Title="frmGameOver" Height="300" Width="600" KeyUp="Window_KeyUp" Background="#FFEA1515">
+    <Grid Background="Black">
+        <Button x:Name="btnRestart" Content="Restart Game Or (R)" HorizontalAlignment="Left" Margin="224,190,0,0" VerticalAlignment="Top" Width="140" Click="btnRestart_Click" OpacityMask="Black" Foreground="#FF6F7D80" BorderBrush="Black" Background="Black"/>
+        <Button x:Name="btnOk" Content="Continue Game Or (C)" HorizontalAlignment="Left" Margin="44,190,0,0" VerticalAlignment="Top" Width="140" Click="btnOk_Click" OpacityMask="Black" Foreground="#FF6F7D80" BorderBrush="Black" Background="Black"/>
+        <Button x:Name="btnExit" Content="Shut Down Game Or (S)" HorizontalAlignment="Left" Margin="415,190,0,0" VerticalAlignment="Top" Width="140" RenderTransformOrigin="2.782,0.283" Click="btnExit_Click" OpacityMask="Black" Foreground="#FF6F7D80" BorderBrush="Black" Background="Black"/>
+        <TextBox x:Name="txtState" HorizontalAlignment="Left" Height="101" Margin="10,44,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="572" TextAlignment="Center" FontSize="30" Foreground="#FFA9ACAC" Background="Black"/>
+
+    </Grid>
+</Window>
